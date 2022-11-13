@@ -116,6 +116,13 @@ h3{
     border-top: .25px solid #aaaaaa;
 }
 
+Main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 main p {
         margin: 10px 10% 0px;
         font-family: 'Nunito', serif, sans-serif;
@@ -125,17 +132,13 @@ main p {
 }
 
 .container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 30vw;
+    width: 50vw;
     position: relative;
     color: #ffffff;
     margin: 10px;
 }
 .container img{
-    width: 30vw;
+    width: 50vw;
 }
 
 .overlay {
@@ -145,7 +148,7 @@ main p {
     left: 0;
     right: 0;
     height: 100%;
-    width: 30vw;
+    width: 50vw;
     opacity: 0;
     transition: .5s ease;
     background-color: #000000;
@@ -205,6 +208,10 @@ footer{
     main {
         grid-column: 2/ span 3;
         grid-row-start: 3;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     footer {
@@ -214,6 +221,7 @@ footer{
 
     .container {
         display: inline-block;
+        width: 30vw;
         background-color: #ffffff;
         /* margin: 10px 0px; */
     }
@@ -223,6 +231,19 @@ footer{
         width: 30vw;
         /* margin:0px 10px 10px 5%; */
     }
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 30vw;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #000000;
+    }
+
     .fa-solid p{
         margin: 10% 5% 10% 5%;
     }
