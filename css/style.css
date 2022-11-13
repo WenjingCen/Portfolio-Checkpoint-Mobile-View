@@ -57,7 +57,7 @@ li a{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-family: Helvetica, serif, sans-serif;
+    font-family: 'Nunito', serif, sans-serif;
 }
   /* Change the link color to #111 (black) on hover */
 li a:hover{
@@ -74,7 +74,7 @@ li a:hover{
     display: block;
     color: #ffffff;
     /* background-color: #ffffffb0; */
-    font-family: Helvetica, serif, sans-serif;
+    font-family: 'Nunito', serif, sans-serif;
     text-align: center;
     border: 2px solid #111111;
     padding: 10px;
