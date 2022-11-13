@@ -1,0 +1,74 @@
+body {
+  background-image: url("../images/cover.jpg");
+  background-attachment: fixed; /* Parallax effect */
+  background-position: center;  /* Parallax effect */
+  background-repeat: no-repeat; /* Parallax effect */
+  background-size: cover; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Nunito', serif, sans-serif;
+}
+
+* {box-sizing: border-box;}
+
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+}
+nav li{
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Nunito', serif, sans-serif;
+  text-align: center;
+}
+nav li a{
+  display: block;
+  color: #ffffff;
+  background-color: #333333;
+  padding: 16px 24px;
+  text-decoration: none;
+}
+
+nav li a:hover{
+  background-color: #111111;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+button[type=submit] {
+  background-color: #333333;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type=submit]:hover {
+  background-color: #333333;
+}
+
+h1 {
+  font-size: 36px;
+  color: #333333;
+  margin: 30px 0;
+}
+
+.container {
+  width: 70%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
